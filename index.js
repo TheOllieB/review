@@ -85,9 +85,6 @@ io.on('connection', (socket) => {
 });
 
 
-
-
-
 // api.getBusiness('mcdonalds').then(result => {
 //     //console.log(result.businesses[0].id);
 //     //TQ3yFvw_2OvdavniABbMWQ
@@ -131,6 +128,8 @@ io.on('connection', (socket) => {
 //   .catch(err => {
 //     console.log('error:', err);
 //   });
+
+console.log(Hello);
     
 server.listen(8080, (err) => {
     if(err) {
